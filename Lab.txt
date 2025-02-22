@@ -1,0 +1,46 @@
+Acer-Pc@DESKTOP-1MOIGKJ MINGW64 /f/3YS2/PAF/LAB/LAB02
+$ git clone https://github.com/Udlk07/PAF.git
+Cloning into 'PAF'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 6 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (6/6), done.
+
+Acer-Pc@DESKTOP-1MOIGKJ MINGW64 /f/3YS2/PAF/LAB/LAB02
+$ cd PAF
+
+Acer-Pc@DESKTOP-1MOIGKJ MINGW64 /f/3YS2/PAF/LAB/LAB02/PAF (main)
+$ git branch paf04
+
+Acer-Pc@DESKTOP-1MOIGKJ MINGW64 /f/3YS2/PAF/LAB/LAB02/PAF (main)
+$ git checkout paf04
+Switched to branch 'paf04'
+
+Acer-Pc@DESKTOP-1MOIGKJ MINGW64 /f/3YS2/PAF/LAB/LAB02/PAF (paf04)
+$ git add paf04.txt
+
+Acer-Pc@DESKTOP-1MOIGKJ MINGW64 /f/3YS2/PAF/LAB/LAB02/PAF (paf04)
+$ git commit -m "added hello file"
+[paf04 82beab7] added hello file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 paf04.txt
+
+Acer-Pc@DESKTOP-1MOIGKJ MINGW64 /f/3YS2/PAF/LAB/LAB02/PAF (paf04)
+$ git push -u origin paf04
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 299 bytes | 299.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'paf04' on GitHub by visiting:
+remote:      https://github.com/Udlk07/PAF/pull/new/paf04
+remote:
+To https://github.com/Udlk07/PAF.git
+ * [new branch]      paf04 -> paf04
+branch 'paf04' set up to track 'origin/paf04'.
+
+Acer-Pc@DESKTOP-1MOIGKJ MINGW64 /f/3YS2/PAF/LAB/LAB02/PAF (paf04)
+$
